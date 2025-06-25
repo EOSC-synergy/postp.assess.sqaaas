@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/postp.assess.sqaaas/master/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/postp.assess.sqaaas/master/.report/assessment_output.json",
-        "timestamp": 1750845422.7521224
+        "timestamp": 1750845516.5345316
     },
     "repository": [
         {
@@ -1463,24 +1463,24 @@
             },
             "data": {
                 "entityType": "Assertion",
-                "id": "685bc7f00d950327684c60d6",
-                "entityId": "wUitI91nQTOlrUeBsT3LgA",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/wUitI91nQTOlrUeBsT3LgA",
-                "createdAt": "2025-06-25T09:57:04.851308854Z",
+                "id": "685bc84e8086cc12814f5842",
+                "entityId": "Yj9ew9ynREKWB0_14AVeIQ",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/Yj9ew9ynREKWB0_14AVeIQ",
+                "createdAt": "2025-06-25T09:58:38.493343414Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/wUitI91nQTOlrUeBsT3LgA/image",
+                "image": "https://api.eu.badgr.io/public/assertions/Yj9ew9ynREKWB0_14AVeIQ/image",
                 "recipient": {
-                    "identity": "sha256$40074d210e8c6d91bf18860c5471315273096f614f453b826dcfc161877ad18e",
+                    "identity": "sha256$c3170a81b47396bc19fab2fc51128b6f3ece49959ec7ed3929a9dc476c8ebf45",
                     "hashed": true,
                     "type": "url",
-                    "salt": "opfKGHMXCRDp0klr",
+                    "salt": "XRGwWUfBRMPbVNhq",
                     "plaintextIdentity": "https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp"
                 },
-                "issuedOn": "2025-06-25T09:57:04.851311994Z",
+                "issuedOn": "2025-06-25T09:58:38.493347285Z",
                 "narrative": "Repository 'https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp' at version 'c7eca6f9a625d532a8c47b6e2697d1edc9cdf2ba' passed successfully the following quality criteria: QC.Doc QC.Sec QC.Lic QC.Acc",
                 "evidence": [
                     {
@@ -1494,7 +1494,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/wUitI91nQTOlrUeBsT3LgA"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/Yj9ew9ynREKWB0_14AVeIQ"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1506,11 +1506,11 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-wUitI91nQTOlrUeBsT3LgA.png",
+                "imagePath": "uploads/badges/assertion-Yj9ew9ynREKWB0_14AVeIQ.png",
                 "ob3AwardProperties": null
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/wUitI91nQTOlrUeBsT3LgA?identity__url=https%3A//github.com/EOSC-synergy/postp.assess.sqaaas/commit/9bb0162b742bd7ad59c378353e5ced856968b56f\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/wUitI91nQTOlrUeBsT3LgA/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FwUitI91nQTOlrUeBsT3LgA?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fpostp.assess.sqaaas%2Fcommit%2F9bb0162b742bd7ad59c378353e5ced856968b56f&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fpostp.assess.sqaaas%2Fcommit%2F9bb0162b742bd7ad59c378353e5ced856968b56f"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/Yj9ew9ynREKWB0_14AVeIQ?identity__url=https%3A//github.com/EOSC-synergy/postp.assess.sqaaas/commit/9bb0162b742bd7ad59c378353e5ced856968b56f\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/Yj9ew9ynREKWB0_14AVeIQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FYj9ew9ynREKWB0_14AVeIQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fpostp.assess.sqaaas%2Fcommit%2F9bb0162b742bd7ad59c378353e5ced856968b56f&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fpostp.assess.sqaaas%2Fcommit%2F9bb0162b742bd7ad59c378353e5ced856968b56f"
         }
     }
 }
