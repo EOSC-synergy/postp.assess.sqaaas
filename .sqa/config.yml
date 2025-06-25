@@ -1,0 +1,68 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: main
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp:
+      branch: master
+      repo: https://gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp git:
+        commands:
+        - /usr/bin/env sh .sqa/script.tasty-rust-maltese.sh
+        container: qc.acc_geeky-orchid-grasshopper
+  QC.Doc:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.bluesy-peach-iguana.sh
+        container: qc.doc_chummy-crimson-millipede
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp git:
+        commands:
+        - /usr/bin/env sh .sqa/script.trippy-grey-lemming.sh
+        container: qc.doc_stealthy-auburn-ostrich
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.chummy-cream-bonobo.sh
+        container: qc.doc_snoopy-denim-rattlesnake
+  QC.Lic:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.homey-violet-discus.sh
+        container: qc.lic_baggy-ultramarine-urchin
+  QC.Sec:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.greasy-apricot-spaniel.sh
+        container: qc.sec_woozy-cornflower-angelfish
+  QC.Sty:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp flake8:
+        commands:
+        - /usr/bin/env sh .sqa/script.woolly-chestnut-mammoth.sh
+        container: qc.sty_goopy-grey-shrimp
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp jsonlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.gamy-ultramarine-bulldog.sh
+        container: qc.sty_tasty-thistle-husky
+  QC.Uni:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.shaggy-blue-fousek.sh
+        container: qc.uni_homely-teal-zonkey
+  QC.Ver:
+    repos:
+      gitlab.geo3bcn.csic.es/dtgeo_geo3bcn/dtc-v2/postp get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.nippy-salmon-spoonbill.sh
+        container: qc.ver_skimpy-cardinal-snake
+timeout: 5400
